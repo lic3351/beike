@@ -8,9 +8,11 @@ npm是nodejs的包管理工具，可以通过npm下载第三方工具包。
 
 你可以使用淘宝定制的 cnpm (gzip 压缩支持) 命令行工具代替默认的 npm:
 
-> $ npm install -g cnpm --registry=https://registry.npm.taobao.org
-
+``` 
+ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
 
 这样就可以使用 cnpm 命令来安装模块了：
-
-> $ cnpm install [name]
+```
+ $ cnpm install [name]
+```
